@@ -13865,8 +13865,78 @@ main .btn:hover {
 main .col {
   max-width: 295px;
 }
+@media screen and (min-width: 1200px) {
+  main .col {
+    max-width: 345px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  main .col {
+    max-width: 210px;
+  }
+}
+@media screen and (min-width: 1700px) {
+  main .col {
+    max-width: 260px;
+  }
+}
+@media screen and (min-width: 1900px) {
+  main .col {
+    max-width: 295px;
+  }
+}
+@media screen and (min-width: 768px) {
+  main .row {
+    translate: -10px;
+  }
+}
+@media screen and (min-width: 992px) {
+  main .row {
+    translate: -12px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  main .row {
+    translate: -10px;
+  }
+}
 main .row img {
   max-width: 295px;
+}
+@media screen and (min-width: 1200px) {
+  main .row img {
+    max-width: 365px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  main .row img {
+    max-width: 210px;
+  }
+}
+@media screen and (min-width: 1700px) {
+  main .row img {
+    max-width: 260px;
+  }
+}
+@media screen and (min-width: 1900px) {
+  main .row img {
+    max-width: 295px;
+  }
+}
+
+footer {
+  margin-top: 200px;
+}
+footer i {
+  transform: scale(2);
+  cursor: pointer;
+  transition: all, 500ms;
+}
+footer i:hover {
+  transform: scale(2.5);
+}
+footer .row p {
+  cursor: pointer;
 }
 
 .carousel-control-prev {

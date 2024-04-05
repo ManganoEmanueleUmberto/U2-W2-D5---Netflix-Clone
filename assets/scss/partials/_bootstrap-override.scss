@@ -36,6 +36,7 @@ $container-max-widths: map-merge(
   $additional-container-max-widths
 );
 
+$secondary: $gray-500;
 // 5. Include remainder of required parts
 @import "../../../bootstrap/scss/maps";
 @import "../../../bootstrap/scss/mixins";
