@@ -13859,6 +13859,29 @@ body nav .kids {
 body nav .kids:hover {
   transform: scale(1.2);
 }
+body main .settings-container {
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  body main .settings-container {
+    width: 95%;
+  }
+}
+@media screen and (min-width: 992px) {
+  body main .settings-container {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  body main .settings-container {
+    width: 70%;
+  }
+}
+@media screen and (min-width: 1400px) {
+  body main .settings-container {
+    width: 60%;
+  }
+}
 body main .row h2, body main .row .h2 {
   font-size: 1.2rem;
   color: rgb(197, 196, 196);
